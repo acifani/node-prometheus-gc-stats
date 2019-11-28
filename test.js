@@ -6,8 +6,6 @@ const promRegister = require('prom-client').register;
 const PromRegistry = require('prom-client').Registry;
 const gcMetrics = require('./index');
 
-jest.mock('gc-stats');
-
 afterEach(() => {
   promRegister.clear();
 });
