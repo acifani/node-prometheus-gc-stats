@@ -3,9 +3,7 @@
 // Credits go to @tcolgate
 
 const Counter = require('prom-client').Counter;
-const optional = require('optional');
-
-const gc = optional('gc-stats');
+const gc = require('gc-stats');
 
 const gcTypes = {
   0: 'Unknown',

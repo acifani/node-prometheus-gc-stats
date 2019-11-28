@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 10
+  - 12
+  - node
+  - lts/*
+
+env:
+  - PROM_CLIENT_VERSION=10
+  - PROM_CLIENT_VERSION=11
+
+before_script:
+  - yarn add prom-client@^$PROM_CLIENT_VERSION
