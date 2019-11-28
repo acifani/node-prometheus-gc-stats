@@ -9,5 +9,7 @@ env:
   - PROM_CLIENT_VERSION=10
   - PROM_CLIENT_VERSION=11
 
+cache: yarn
+
 before_script:
   - yarn add prom-client@^$PROM_CLIENT_VERSION
