@@ -32,7 +32,7 @@
     "prom-client": ">= 10 < 12"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.3.0",
     "eslint-plugin-jest": "^23.3.0",
     "eslint-plugin-node": "^11.0.0",
     "jest": "^24.0.0",
